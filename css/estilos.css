@@ -1,5 +1,5 @@
 body {
-    background-color: #fafafa;
+    background-color: #bed6e0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -32,3 +32,13 @@ body {
     transition: 0.2s;
 
 }
+/*Comienza componente*/
+.carousel{
+    height: 20em;
+ }
+ .carousel-item > img{
+     height: 25em;
+     object-fit: cover;
+ }
+ /*Termina componente*/
+ 
