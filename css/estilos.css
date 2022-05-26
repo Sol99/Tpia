@@ -42,3 +42,34 @@ body {
  }
  /*Termina componente*/
  
+ #inputs{
+    margin-top: 140px;
+    display: block;
+ }
+
+ #background-inputs{
+    background-color: #032333;
+ }
+
+#footer{
+    margin-top: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#titulo{
+    margin-left: 45px;
+    margin-top: 10px;
+    
+}
+
+#info-card{
+    width: 50%;
+    margin-left: 40px;
+    margin: 25px;
+}
+
+#bloque-2{
+    display: flex;
+}
