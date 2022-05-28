@@ -37,8 +37,18 @@ body {
     height: 20em;
  }
  .carousel-item > img{
-     height: 25em;
+     height: 20em;
      object-fit: cover;
  }
  /*Termina componente*/
+ h1{
+    text-align: center;
+    background-color: #032333 ;
+    margin: 0px 0px 10px 0px;
+    font-weight: 100;
+    color: white;
+    border: 1px solid #042e45;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
  
