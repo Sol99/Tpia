@@ -7,16 +7,16 @@
     <title>RECOMENDAR</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
 </head>
 <body>
      <!--Barra de navegacion-->
      <nav class="nav">
-        <img src="imagenes/logo.png" alt="logo">
-        <ul class="d-flex flex-column flex-lg-row align-items-lg-center nav-estilos ">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="html/index.html">Sobre Nosotros</a></li>
-        </ul>
+      <img src="{{ url_for('static', filename='imagenes/logo.png') }}" alt="logo">
+      <ul class="d-flex flex-column flex-lg-row align-items-lg-center nav-estilos ">
+        <li><a href="{{ url_for('main') }}">Home</a></li>
+        <li><a href="{{ url_for('who') }}">Sobre Nosotros</a></li>
+      </ul>
     </nav>
     <main>
         <!-- Info sobre nosotros -->
