@@ -52,3 +52,36 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
  
+ .searchRowColor {
+    background-color: #032333;
+     
+ }
+
+ .containerSearch {
+     padding: 20px;
+ }
+
+ #inputs{
+    margin-top: 140px;
+    display: block;
+ }
+
+ #background-inputs{
+    background-color: #032333;
+ }
+
+#titulo{
+    margin-left: 45px;
+    margin-top: 10px;
+    
+}
+
+#info-card{
+    width: 50%;
+    margin-left: 40px;
+    margin: 25px;
+}
+
+#bloque-2{
+    display: flex;
+}
