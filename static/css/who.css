@@ -1,0 +1,25 @@
+header > h1{
+    background-color: #16577a;
+    box-shadow: 4px 2px 10px #666;  /*Le agrega sombra*/
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+
+    
+}
+
+.estilos-main > .imagen-portada{
+    width: 100%;
+}
+
+.estilos-main > .titulo{
+        margin-top: 1.5em;
+        margin-left: 1.5em;
+}
+
+.estilos-main > .parrafo{
+    font-size: 1.2em;
+    margin-right: 1.5em;
+    margin-left: 2.5em
+   
+}
